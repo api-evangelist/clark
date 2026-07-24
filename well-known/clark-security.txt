@@ -1,0 +1,5 @@
+Contact: https://app.yogosha.com/cvd/clark-managed-vdp/14gDrfiQvL9PoaomjQ9WfO
+Expires: 2025-05-30T22:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.clark.de/.well-known/security.txt
+Policy: https://app.yogosha.com/cvd_policies_yogosha_en.pdf

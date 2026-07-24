@@ -1,8 +1,26 @@
 aid: clark
 name: Clark
-description: Clark is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Clark ("Dein Versicherungsmanager") is a Germany-based digital insurance manager that lets
+  consumers view, compare, optimize, and manage all of their insurance policies in one mobile app
+  and web platform. Founded in Frankfurt in 2015, Clark pairs a licensed insurance brokerage with
+  automated tariff comparison across more than 180 insurance providers and free expert
+  consultation, covering health, liability, property, life, mobility, and retirement products. The
+  company operates across Germany, Switzerland, France, and the UK, serves over 700,000 customers,
+  and is backed by venture investors including Lightspeed Venture Partners. Clark exposes no public
+  developer API or developer portal; it is a consumer-facing insurtech rather than an API producer.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.clark.de/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/clark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Insurance Comparison
+- Personal Finance
+- Financial Services
+- Consumer
+- Germany
+- Mobile App
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/clark-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.clark.de/.well-known/security.txt
+- type: DomainSecurity
+  url: security/clark-domain-security.yml
+- type: Website
+  url: https://www.clark.de
+- type: About
+  url: https://www.clark.de/ueber-uns
+- type: Blog
+  url: https://www.clark.de/blog
+- type: PrivacyPolicy
+  url: https://www.clark.de/datenschutz
+- type: TermsOfService
+  url: https://www.clark.de/agb
+- type: Legal
+  url: https://www.clark.de/impressum
+- type: SecurityTxt
+  url: well-known/clark-security.txt
+- type: WellKnown
+  url: well-known/clark-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
