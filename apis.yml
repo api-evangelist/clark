@@ -9,6 +9,17 @@ description: >-
   company operates across Germany, Switzerland, France, and the UK, serves over 700,000 customers,
   and is backed by venture investors including Lightspeed Venture Partners. Clark exposes no public
   developer API or developer portal; it is a consumer-facing insurtech rather than an API producer.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
