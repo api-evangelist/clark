@@ -48,7 +48,7 @@ tags:
 - Insurtech
 - Insurance Comparison
 - Personal Finance
-- Financial-Services
+- Financial Services
 - Consumer
 - Germany
 - Mobile App
@@ -62,6 +62,7 @@ tags_raw:
 - Consumer
 - Germany
 - Mobile App
+- Financial-Services
 apis: []
 common:
 - type: VulnerabilityDisclosure
