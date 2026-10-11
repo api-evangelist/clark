@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "clark",
+    "captured_at": "2026-10-11T183930",
+    "source_url": "https://www.clark.de",
+    "source_type": "Website",
+    "file": "clark-2026-10-11T183930.png",
+    "bytes": 815221,
+    "capture": "playwright-local"
+  }
+]
